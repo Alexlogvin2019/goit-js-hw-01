@@ -5,7 +5,7 @@ let message;
 
 const numbersDroids = prompt("Количество дроидов?");
 
-const totalPrice = numbersDroids * pricePerDroid;
+const totalPrice = Number(numbersDroids) * pricePerDroid;
 const balanceCredits = credits - totalPrice;
 
 if (numbersDroids === null) {

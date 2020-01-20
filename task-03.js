@@ -6,16 +6,16 @@ let password;
 password = prompt(`Пароль!`);
 if (password == null)
 {
-    message = 'Отменено пользователем!';
+    message = "Отменено пользователем!";
 } 
 else {
     if (password == ADMIN_PASSWORD)
     {
-        message = 'Добро пожаловать!';
+        message = "Добро пожаловать!";
     }
     else {
-        message = 'Доступ запрещен, неверный пароль!'
+        message = "Доступ запрещен, неверный пароль!";
     }
 }
 
-alert (message);
+alert(message);

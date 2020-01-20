@@ -27,5 +27,5 @@ switch (countryDeliveryLow) {
     alert(`Доставка в ${countryDelivery} будет стоить ${priceDelivery} кредитов`);
     break;
     default:
-        alert(`В вашей стране доставка не доступна`);
+        alert("В вашей стране доставка не доступна");
 }

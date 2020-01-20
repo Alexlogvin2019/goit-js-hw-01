@@ -1,7 +1,7 @@
 "use strict";
 const ADMIN_PASSWORD = 'jqueryismyjam';
 let message;
-let password;
+const password;
 
 password = prompt(`Пароль!`);
 if (password == null)
